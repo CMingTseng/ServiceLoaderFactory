@@ -19,7 +19,8 @@ import java.lang.annotation.Target;
 @Target(ElementType.TYPE)
 public @interface ITabPage {
 
+    // tab标题
     String tabName();
-
+    // tab 图标
     String iconName();
 }
