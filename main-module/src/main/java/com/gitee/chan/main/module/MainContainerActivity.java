@@ -46,6 +46,8 @@ public class MainContainerActivity extends AppCompatActivity {
         mNavigation = (BottomNavigationView) findViewById(R.id.navigation);
         serviceLoad();
         initEvent();
+
+        mNavigation.setSelectedItemId(mNavigation.getMenu().getItem(0).getItemId());
     }
 
     private void serviceLoad(){
