@@ -1,10 +1,8 @@
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 27
-
-
-
+    compileSdkVersion 28
+    buildToolsVersion "30.0.3"
     defaultConfig {
         minSdkVersion 15
         targetSdkVersion 27
@@ -21,7 +19,6 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-
 }
 
 dependencies {
